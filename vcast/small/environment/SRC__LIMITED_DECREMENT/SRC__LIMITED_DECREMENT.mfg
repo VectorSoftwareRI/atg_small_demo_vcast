@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manage-config-options version="7">
+  <config>
+    <key>COVERAGE_TYPE</key>
+    <value>STATEMENT+BRANCH</value>
+  </config>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(SMALL_SRC_PATH)/src</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(SMALL_SRC_PATH)/inc</search-directory>
+</manage-config-options>

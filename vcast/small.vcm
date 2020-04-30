@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="28">
+  <config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>39674673956</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="SRC__LIMITED_DECREMENT" type="UNIT">
+    <language>1</language>
+    <imported-from>REGRESSION</imported-from>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>.</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="SRC__LIMITED_INCREMENT" type="UNIT">
+    <language>1</language>
+    <imported-from>REGRESSION</imported-from>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>.</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="SRC__LIMITED_RESET" type="UNIT">
+    <language>1</language>
+    <imported-from>REGRESSION</imported-from>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>.</original-environment-directory>
+    </config>
+  </environment>
+  <group name="SRC">
+    <environment name="SRC__LIMITED_DECREMENT"/>
+    <environment name="SRC__LIMITED_INCREMENT"/>
+    <environment name="SRC__LIMITED_RESET"/>
+  </group>
+  <compiler>
+    <compiler>
+      <name>gcc</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>GNU_C_83</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="TestSuite">
+      <group name="SRC"/>
+    </testsuite>
+  </compiler>
+</project>
