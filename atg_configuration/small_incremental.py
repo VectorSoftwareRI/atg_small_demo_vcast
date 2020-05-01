@@ -28,7 +28,9 @@ from functools import partial
 
 
 def store_updated_tests(changed_files):
-    print(changed_files)
+    print("The following changed files were reported as changed:")
+    for fname in changed_files:
+        print("    {:s}".format(fname))
 
 
 def __guess_location():
