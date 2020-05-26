@@ -37,6 +37,20 @@
   </group>
   <compiler>
     <compiler>
+      <name>clang</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>CLANG_50</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="TestSuite">
+      <group name="SRC"/>
+    </testsuite>
+  </compiler>
+  <compiler>
+    <compiler>
       <name>gcc</name>
       <config>
         <config>
