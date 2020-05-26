@@ -53,9 +53,14 @@ def get_configuration(options):
     # Set the environment variable needed for the environments to build
     os.environ["SMALL_SRC_PATH"] = repository_path
 
+    # Which compiler node to process?
+    compiler_node = "gcc"
+
+    # Configuration object
     configuration = {
         "repository_path": repository_path,
         "manage_vcm_path": manage_vcm_path,
+        "compiler_node": compiler_node,
     }
 
     return configuration
