@@ -55,7 +55,7 @@
       <config>
         <config>
           <key>C_COMPILER_TAG</key>
-          <value>GNU_C_83</value>
+          <value>BUILTIN_MINGW_63_C</value>
         </config>
       </config>
     </compiler>
